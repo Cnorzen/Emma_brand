@@ -8,7 +8,7 @@
     "server": "json-server --watch db.json --port 8000",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build": "[duan-emmafashion] build --output public",
+    "build": "vite build",
     "start": "concurrently \"json-server --watch db.json\" \"npm run dev\"",
     "dev": "vite"
   },
@@ -20,6 +20,7 @@
     "antd": "^5.17.4",
     "axios": "^1.7.2",
     "bootstrap": "^5.2.0",
+    "build": "^0.1.4",
     "concurrently": "^8.2.2",
     "dotenv": "^16.4.5",
     "isomorphic-fetch": "^3.0.0",
