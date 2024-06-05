@@ -8,7 +8,7 @@
     "server": "json-server --watch db.json --port 8000",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build": "vite build --outDir build",
+    "build": "vite build --outDir dist",
     "start": "concurrently \"json-server --watch db.json\" \"npm run dev\"",
     "dev": "vite"
   },
