@@ -1,6 +1,8 @@
+
 import Footer from "../Footer";
 import Header from "../Header";
 import DontMiss from "../contentBlocks/DontMiss";
+import Slide from "../contentBlocks/Slider";
 import SyNews from "../contentBlocks/SyNews";
 import SuccessStory from "../contentBlocks/page1SuccessStory";
 import WeHelpSurface from "../contentBlocks/page1WeHelpSurface";
@@ -39,6 +41,7 @@ export const HomePage = () => {
   return (
     <section>
       <Header />
+      <Slide/>
       <WeHelpSurface />
       {/* Thêm sản phẩm */}
       <SuccessStory />
