@@ -28,7 +28,7 @@ const Slide = () => {
                 <h2 className="text-4xl text-white font-bold mb-4">
                   Women Collection 2024
                 </h2>
-                <p className="text-lg text-white mb-8">Bộ Sưu Tập Xuân Hè</p>
+                <h2 className="text-lg text-white mb-8">Bộ Sưu Tập Xuân Hè</h2>
                 <button className="bg-white text-black py-3 px-8 rounded-none hover:bg-gray-200 transition duration-300">
                   Shop Now
                 </button>
@@ -46,7 +46,7 @@ const Slide = () => {
                 <h2 className="text-4xl text-red-600 font-bold mb-4">
                   Men Collection 2024
                 </h2>
-                <p className="text-lg text-white mb-8">Bộ Sưu tập Xuân Hè</p>
+                <h2 className="text-lg text-white mb-8">Bộ Sưu tập Xuân Hè</h2>
                 <button className="bg-white text-black py-3 px-8 rounded-none hover:bg-gray-200 transition duration-300">
                   Shop Now
                 </button>
@@ -64,7 +64,8 @@ const Slide = () => {
                 <h2 className="text-4xl text-white font-bold mb-4">
                   Summer Collection 2024
                 </h2>
-                <p className="text-lg text-white mb-8">Bộ Sưu Tập Thu Đông</p>
+                <h2 className="text-lg text-white mb-8">Bộ Sưu Tập Thu Đông</h2>
+                
                 <button className="bg-white text-black py-3 px-8 rounded-none hover:bg-gray-200 transition duration-300">
                   Shop Now
                 </button>

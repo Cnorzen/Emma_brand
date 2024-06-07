@@ -15,7 +15,7 @@ function App() {
       <Routes>
         {/* trang chủ */}
         <Route path="/" element={<HomePage />} />
-        {/* giới thiệu */}
+        {/* giới thiệu emma */}
         <Route path="/about" element={<AboutUs />} />
         {/* cửa hàng */}
         <Route path="/projects" element={<Projects />} />
