@@ -1,6 +1,8 @@
 import Footer from "../Footer";
 import DontMiss from "../contentBlocks/DontMiss";
 import Header from "../Header";
+import SliderBanner from "../contentBlocks/SliderBanner";
+
 
 export const Projects = () => {
   // page Sản Phẩm
@@ -8,6 +10,7 @@ export const Projects = () => {
   return (
     <section>
       <Header />
+      <SliderBanner/>
       {/* Phần sản phẩm cần api */}
       <div className="container">
         <div className="row">

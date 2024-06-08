@@ -4,7 +4,7 @@ const WhoWeAre = () => {
   return (
     <div className="container who_we_are">
       <div className="row">
-      {/* <section
+        {/* <section
             className="bg-img1 text-center px-6 py-24 sm:px-24"
             style={{
               backgroundImage: `url('../image/helen.jpg')`,
@@ -14,13 +14,34 @@ const WhoWeAre = () => {
           >
             <h2 className="text-5xl font-light text-white">Contact</h2>
           </section> */}
-        <div className="col-lg-3.5 col-md-16 d-flex align-items-center">
+          
+        {/* <div className="relative w-full h-96 md:h-128 lg:h-144 overflow-hidden">
           <img
-            alt="#"
+            alt="Helen"
             src="../image/helen.jpg"
-            className="img-fluid who-panel"
+            className="w-full h-full object-cover"
           />
+        </div> */}
+
+
+<div className="relative bg-cover bg-center h-screen">
+      <img
+        alt="Helen"
+        src="../image/helen.jpg"
+        className="w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-10">
+        <div className="absolute top-8 left-8">
+          <h1 className="text-4xl font-bold">EMMA</h1>
         </div>
+        <div className="mt-auto mb-8 text-center">
+          <h2 className="text-4xl font-bold">WHAT IS EMMA</h2>
+          <p className="mt-4 text-lg">
+            Được thành lập năm 2024 ,EMMA là thương hiệu Việt Nam về phong cách sống, cung cấp đa dạng các loại sản phẩm chất lượng và hữu dụng từ quần áo.
+          </p>
+        </div>
+      </div>
+    </div>
 
         <div className="col-lg-8 col-md-12">
           <div className="mt-3 mb-3 d-flex title">

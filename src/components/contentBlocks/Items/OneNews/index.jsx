@@ -6,7 +6,7 @@ const OneNews = ({ news }) => {
         <article className="col-xl-4 col-md-6 col-sm-12 mx-auto mt-5 d-flex justify-content-center">
             <div className='item' style={{ maxWidth: '500px' }}>
                 <div className="emma_news-main__logo">
-                <img alt="#" src={news.image} style={{ width: '100%' }} /> 
+                    <img alt="#" src={news.image} style={{ width: '100%' }} /> 
                 </div>
                 <div className="emma-news-main">
                     <Link to={'/news/' + news.slug} className='item-title'>
